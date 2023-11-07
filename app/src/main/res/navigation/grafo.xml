@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/grafo"
+    app:startDestination="@id/listPostres">
+
+    <fragment
+        android:id="@+id/listPostres"
+        android:name="moviles.pruebajson.ListPostres"
+        android:label="fragment_list_postres"
+        tools:layout="@layout/fragment_list_postres" />
+</navigation>
